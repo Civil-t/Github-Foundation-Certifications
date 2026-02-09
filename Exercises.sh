@@ -27,7 +27,7 @@ git commit -m "Add 2 participants and update to-do list."
 
 
 ## Git has a command you can use to display all commits made to a repo, along with the hash, author, and time of the commit.
-git log
+git log #repo hsitory
 
 # View information about the last two commits only.
 git log -2
@@ -76,3 +76,35 @@ git retore --staged mental_health_survey.csv
 
 #3. Make a commit with the log message "Add task to fix plot in report", without opening the text editor.
 git commit -m "Add task to fix plot in report"
+
+
+
+
+
+
+#### INTERMEDIATE GIT
+
+## Git Branches
+
+# list all branches (*=current branch)
+git branch
+
+#switch to a branch
+git switch branch_name
+
+# create a new branch
+git branch new_branch
+
+#create and switch to a new branch 
+git switch -c new_branch
+
+## Modyfying a branch
+
+# change name of current branch
+git branch -m new_branch_name
+
+# delete a branch
+git branch -D branch_name
+
+# merging when in main branch
+Merge the ai-assistant branch into the main branch.
