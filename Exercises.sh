@@ -108,3 +108,34 @@ git branch -D branch_name
 
 # merging when in main branch
 Merge the ai-assistant branch into the main branch.
+
+
+## Cloning a repo
+#Clone /home/repl/datacamp in your current directory.
+
+git clone /home/repl/datacamp
+
+# Add the name back-up for the /home/repl/datacamp repo.
+git remote add back-up /home/repl/datacamp
+
+# List all remotes including their URL(s).
+git remote -v #verbose
+
+# Fettching from remote
+
+# Run a command to find out the name(s) of remote repos linked to your project.
+git remote
+
+#Fetch from the remote origin repo into your local main branch.
+git fetch origin 
+
+## Pulling from remote
+# Pull the remote origin repo's front-end branch into your current local branch.
+git pull origin front-end
+
+# Compare origin's main branch with your local branch
+git diff origin
+
+# Pushing to remote
+#Push your local documentation branch to the origin remote repo.
+git push origin documentation
