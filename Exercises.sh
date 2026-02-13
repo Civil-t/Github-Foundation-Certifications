@@ -139,3 +139,34 @@ git diff origin
 # Pushing to remote
 #Push your local documentation branch to the origin remote repo.
 git push origin documentation
+
+
+
+##### GITHUB
+
+# cloud based version control system
+# version control is a way of tracking changes (diffrent states of a file)
+
+### README.md
+
+# for headings
+# **something** = bold
+# *somethong* = italics
+# [something] = hyperlink
+# ![something] = image
+
+# - need to be descriptive
+# - anyone should understand our project
+# - list contents of repo
+# - clearly explains the project
+
+##README.md extras
+
+# - how the project came about
+# - the motivation
+# - limitation
+# - challenges
+# - what problems we are trying to solve
+# - what the intended use is
+# - credits
+# - toc
