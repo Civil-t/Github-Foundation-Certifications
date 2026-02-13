@@ -170,3 +170,12 @@ git push origin documentation
 # - what the intended use is
 # - credits
 # - toc
+
+
+### Personal Access Token (PAT)
+
+# an alternative to password 
+# only requiquired when accessing via the terminal
+
+## Forking a repo
+# forking a repo creates a copy of the original repo
