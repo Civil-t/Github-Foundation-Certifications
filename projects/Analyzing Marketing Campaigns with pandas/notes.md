@@ -1,0 +1,1 @@
+- Adding new columns that derive information from existing data or based on domain knowledge is known as **Feature Engineering**
