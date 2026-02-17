@@ -224,3 +224,49 @@ Write: actively pushing code.
 Maintain: managing the repository without sensitive actions. 
 Admin: full control, including security management and deletion. 
 Assign roles that fit each persons or teams function to provide just the right access.''' 
+
+# Authentication and Authorization Models
+
+# Authentication Methods
+
+'''Methods: 
+Two-Factor Authentication for added security,
+SSH keys for secure connections, 
+Personal Access Tokens for controlled API access,
+Integrating identity providers to streamline user management.'''
+
+# 1. Two-Factor Authentication (2FA)
+
+''' adding an extra layer of protection. 
+members must log in with both their username and password, plus a secondary form of authentication:
+
+Security keys provide the strongest defense, 
+Cloud-based TOTP apps. 
+SMS codes 
+GitHub Mobile are alternative options. '''
+
+''' 
+Understanding SAML SSO
+01:48 - 02:17
+SAML Single Sign-On (SSO) allows users to log in once and access multiple apps,
+including GitHub, without re-entering credentials. 
+It requires a SAML Identity Provider like Microsoft Entra ID, Okta, or OneLogin. SAML SSO
+'''
+
+# Personal Access Tokens (PATs)
+
+''' 
+a safe way to connect to GitHubs API for automation and integrations 
+PATs are special codes that act like passwords but with more control over what they can do. 
+They are essential for securely connecting tools like Jupyter notebooks, data pipelines, or scripts to our GitHub repositories. 
+There are two types of PATs: Classic, which offers broad access, 
+and Fine-grained, which gives us precise control over what the token can access.
+'''
+
+# 3. OAuth Authorization Model
+
+''' OAuth is another secure method for granting third-party apps access to our GitHub account. 
+Unlike PATs, OAuth doesn’t require sharing our password. 
+Instead, it gives apps the specific permissions they need while keeping our credentials safe. 
+This is especially useful for connecting GitHub to data tools like Apache Airflow, 
+allowing specific access to datasets for automated workflows without exposing our entire account.'''
