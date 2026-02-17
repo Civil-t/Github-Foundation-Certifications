@@ -179,3 +179,48 @@ git push origin documentation
 
 ## Forking a repo
 # forking a repo creates a copy of the original repo
+
+
+## GITHUB ADMINSTRATION
+
+# covers how to manage access at the organization, team, and repository levels to keep your projects secure and efficient. 
+
+
+''' A GitHub Organization is a centralized workspace where we manage multiple projects efficiently.
+ It provides role-based access, ensures users have the proper permissions and
+ enforces security policies to protect our data.
+'''
+
+''' In GitHub organizations, roles define access and responsibilities.
+Owners have full control,
+Members collaborate with standard permissions, 
+Outside Collaborators have limited access to specific repositories. 
+
+Additional roles include: 
+
+Moderators managing interactions in public repositories. 
+Billing Managers, who handle billing. 
+Security Managers, overseeing security settings. 
+GitHub Enterprise Cloud offers even more flexibility with custom roles.'''
+
+ # Managing Teams
+
+''' Teams in a GitHub organization are essential for streamlining collaboration. \
+By grouping users into teams, we can easily manage permissions and organize our projects. 
+Owners and Members can create and organize teams, grouping them by project, role, or department. 
+Nested teams allow the mirroring of internal hierarchies, such as a data team with sub-teams like data engineers and data scientists. 
+This setup ensures clear delegation.'''
+
+
+# Administration at repository level
+
+''' Lastly, lets recall repository roles. 
+
+From least to most access: 
+
+Read: viewing and discussing the project. 
+Triage: managing issues and pull requests. 
+Write: actively pushing code. 
+Maintain: managing the repository without sensitive actions. 
+Admin: full control, including security management and deletion. 
+Assign roles that fit each persons or teams function to provide just the right access.''' 
