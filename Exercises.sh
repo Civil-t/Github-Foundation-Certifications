@@ -225,7 +225,7 @@ Maintain: managing the repository without sensitive actions.
 Admin: full control, including security management and deletion. 
 Assign roles that fit each persons or teams function to provide just the right access.''' 
 
-# Authentication and Authorization Models
+### Authentication and Authorization Models
 
 # Authentication Methods
 
@@ -270,3 +270,43 @@ Unlike PATs, OAuth doesn’t require sharing our password.
 Instead, it gives apps the specific permissions they need while keeping our credentials safe. 
 This is especially useful for connecting GitHub to data tools like Apache Airflow, 
 allowing specific access to datasets for automated workflows without exposing our entire account.'''
+
+### Managing an InnerSource Program
+
+'''
+Open source is a software model where code is publicly available for anyone to use, modify, and share.
+Whether adding features, fixing bugs, or improving documentation,
+
+key benefits: 
+rapid innovation through diverse contributions, 
+high-quality peer-reviewed code, 
+global access to tools, 
+enhanced collaboration within a strong community
+'''
+# Transitioning to InnerSource
+
+''' InnerSource, a development model using GitHub to boost collaboration, transparency, and innovation. 
+By adopting these practices, we can enhance teamwork, ensure project acces
+
+
+open-source practices within our organization, focusing on transparency, 
+collaboration,
+shared ownership. It involves setting up internal repositories and using GitHub to standardize contributions with pull request and issue templates.
+'''
+
+### Establishing a Secure Development Strategy
+
+''' Secure development is crucial for all projects. 
+By automating security tasks, 
+we can prevent issues early and maintain a strong security posture with minimal effort.'''
+
+'''
+GitHub Advanced Security provides essential tools like 
+Code Scanning for identifying vulnerabilities, 
+Secret Scanning for protecting sensitive data, 
+and features like Dependency Graph and Dependabot,
+
+
+The Dependency Graph provides a complete view of our project’s dependencies, 
+helping us visualize all the libraries our project relies on.
+'''
