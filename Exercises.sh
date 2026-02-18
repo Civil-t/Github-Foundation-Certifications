@@ -310,3 +310,24 @@ and features like Dependency Graph and Dependabot,
 The Dependency Graph provides a complete view of our project’s dependencies, 
 helping us visualize all the libraries our project relies on.
 '''
+
+#### Security Policies and Sensitive Data Management
+
+
+### Introduction to GitHub Codespaces
+
+'''
+A GitHub Codespace is a cloud-based development environment that allows developers to write, test, and debug code directly in the cloud, obviating the need for complex local setups. When a codespace is created, it launc
+When a codespace is created, it launches a Docker container running on a virtual machine, which is pre-configured with the necessary tools, libraries, and dependencies for the project
+'''
+# Understanding the GitHub Codespaces Lifecycle
+# 1. Creation phase
+'''You have two primary options when creating a codespace: starting from an existing project or starting a new project.'''
+
+
+# 2. Rebuilding phase
+
+
+# 3. Stopping phase
+
+
